@@ -1,0 +1,86 @@
+:root {
+    --clr-primary-light-blue: hsl(215, 51%, 70%);
+    --clr-primary-cyan: hsl(178, 100%, 50%);
+
+    --clr-neutral-main-BG: hsl(217, 54%, 11%);
+    --clr-neutral-Card-BG: hsl(216, 50%, 16%);
+    --clr-neutral-line: hsl(215, 32%, 27%);
+    --clr-neutral-white: hsl(0, 0%, 100%);
+
+    --fw-regular: 300;
+    --fw-semi-bold: 400;
+    --fw-bold: 600;
+
+}
+
+body {
+    font-family: Outfit;
+    background-color: var(--clr-neutral-main-BG);
+}
+
+h1 {
+    font-weight: var(--fw-bold);
+    color: var(--clr-neutral-white);
+}
+
+p {
+    font-weight: var(--fw-regular);
+    color: var(--clr-primary-light-blue);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    max-width: 20rem;
+    max-height: fit-content;
+    background-color: var(--clr-neutral-Card-BG);
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.image {
+    border-radius: 1rem;
+    max-width: 20rem;
+}
+
+/*section-value*/
+
+.section-value {
+    align-items: center;
+}
+
+
+.value {
+    font-weight: var(--fw-bold);
+    color: var(--clr-primary-cyan);
+}
+
+.value-icon {
+    gap: 0.5rem;
+}
+
+/*section-time*/
+
+.section-time {
+    align-items: center;
+}
+
+.time {
+    color: var(--clr-primary-light-blue);
+}
+
+.time-icon {
+    gap: 0.5rem;
+}
+
+.avatar {
+    max-width: 3rem;
+}
+
+.name {
+    color: var(--clr-neutral-white);
+    font-weight: var(--fw-semi-bold);
+}
